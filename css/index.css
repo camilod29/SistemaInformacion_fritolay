@@ -1,0 +1,20 @@
+.body-web{
+   background-color:salmon;
+
+}
+.logo-inicio{
+  
+   
+}
+.container-fluid{
+    align-items: flex-end;
+}
+
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-container img{
+    width: 300px;
+}
