@@ -4,17 +4,60 @@
 }
 .logo-inicio{
   
-   
+   justify-content: center;
+   margin-left: 30px;
 }
-.container-fluid{
-    align-items: flex-end;
+.bg-light{
+    background: #fffb82 !important;
 }
+
 
 .page-content{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.product-container{
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    background-color:white;
 }
 
-.page-container img{
+.button-usuario{
+    background-color: transparent;
+    border: none;
+}
+.rigth-content-nav{
+    display: flex;
+   
+}
+.d-flex{
+    height: 54px;
+}
+.carrito-botton{
+    margin-left: 5px;
+
+}
+.carrito-botto:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   
+  }
+
+.page-content button{
+   display: flex;
+   padding: 10px 20px;
+   position: absolute;
+    right: 15px;
+    bottom: 9px;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   
+  }
+.product-container img{
     width: 300px;
+    margin: 5px;
 }
