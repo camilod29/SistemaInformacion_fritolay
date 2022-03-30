@@ -1,5 +1,5 @@
 .up-content{
-    align-items: center;
+    align-items: baseline;
     display: flex;
     justify-content: center;
 }
@@ -8,17 +8,10 @@
    background-color: white;
 
 }
-.logo-inicio{
-  
-   justify-content: center;
-   margin-left: 30px;
-}
-.bg-light{
-    background: white !important;
-}
+
 
 .nav{
-    align-items: center;
+    align-items: baseline;
 }
 
 .page-content{
