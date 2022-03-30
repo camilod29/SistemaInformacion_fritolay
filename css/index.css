@@ -38,6 +38,7 @@
     color: #FF8126!important;
 }
 
+
 .product-container h3{
     font-family: 'Poppins';
 font-style: normal;
@@ -50,11 +51,25 @@ text-align: center;
 
 color: #1F1F1F;
 }
+.ultimos-productos-title{
+
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #1F1F1F;
+}
+
+
 
 .button-usuario{
-    background-color: transparent;
-    border: none;
+    
 }
+
 .rigth-content-nav{
     display: flex;
    
