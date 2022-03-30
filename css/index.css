@@ -11,6 +11,9 @@
     background: white !important;
 }
 
+.nav{
+    align-items: center;
+}
 
 .page-content{
     display: flex;
@@ -51,6 +54,7 @@ text-align: center;
 
 color: #1F1F1F;
 }
+
 .ultimos-productos-title{
 
 
@@ -64,27 +68,27 @@ text-align: center;
 color: #1F1F1F;
 }
 
-
-
-.button-usuario{
+.rigth-content-nav button{
+    border-radius:500px;
+    outline:none;
     
 }
 
+
+
 .rigth-content-nav{
+
     display: flex;
+    justify-content: flex-end;
+    position: fixed;
+
    
 }
+
 .d-flex{
     height: 54px;
 }
-.carrito-botton{
-    margin-left: 5px;
 
-}
-.carrito-botto:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-   
-  }
 
 .page-content button{
    display: flex;
