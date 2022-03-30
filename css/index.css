@@ -1,5 +1,5 @@
 .body-web{
-   background-color:salmon;
+   background-color: white;
 
 }
 .logo-inicio{
@@ -8,7 +8,7 @@
    margin-left: 30px;
 }
 .bg-light{
-    background: #fffb82 !important;
+    background: white !important;
 }
 
 
@@ -22,7 +22,33 @@
     margin: 15px;
     padding: 2px 16px;
     position: relative;
-    background-color:white;
+    background-color: #F7F5F0;
+    border-radius: 15px;
+}
+
+.product-container h1{
+    font-family: 'Poppins'!important;
+    font-style: normal!important;
+    font-weight: 600!important;
+    font-size: 24px!important;
+    line-height: 36px!important;
+/* identical to box height */
+
+
+    color: #FF8126!important;
+}
+
+.product-container h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+color: #1F1F1F;
 }
 
 .button-usuario{
@@ -54,7 +80,7 @@
 }
 
 .product-container:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
    
   }
 .product-container img{
