@@ -2,4 +2,4 @@ RewriteEngine On
 RewriteBase /
 options +FollowSymLinks
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule .* clase/SistemaInformacion_fritolay/taller_php/index.php/$0 [L]
+RewriteRule .* clase/SistemaInformacion_fritolay/parte_php/index.php/$0 [L]

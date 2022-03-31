@@ -1,4 +1,4 @@
-const urlProducto = "http://localhost/clase/SistemaInformacion_fritolay/taller_php/productos";
+const urlProducto = "http://localhost/clase/SistemaInformacion_fritolay/parte_php/productos";
 
 let listaProductos = [];
 
