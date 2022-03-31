@@ -4,7 +4,7 @@ const close= document.getElementById('close_carrito');
 
 open.addEventListener('click', () => {
     carrito_container.classList.add('show');
-    alert('pene');
+    
 });
 
 close.addEventListener('click', () => {
