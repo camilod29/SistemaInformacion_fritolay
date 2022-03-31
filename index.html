@@ -43,8 +43,10 @@
                             <button type="button"> <img src="resources/profile.png" height ="60" width="60" /></button>
                         </div>
     
-                        <div class="carrito-botton">
-                            <button type="button"> <img src="resources/cart.png" height ="60" width="60" /></button>
+                        <div class="carrito-botton" >
+                            <button type="button" id="open"> 
+                                <img src="resources/cart.png" height ="60" width="60" />
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -112,10 +114,21 @@
                 <button class="btn btn-warning">Agregar</button>
             </div>    
         </div> 
-        <div> </div>
+
+        <div class="carrito-container" id="carrito_container"> 
+            <div class="carrito">
+                <h1>Carrito de compras</h1>
+                <p>
+                    aqui van las cosas esas
+                </p>
+                <button>cerrar</button>
+            </div>
+          
+        </div>
+
         <script>src="js/index.js"</script>  
+
     </body>
     <footer>
-
     </footer>
 </html>

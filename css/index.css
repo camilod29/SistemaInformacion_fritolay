@@ -178,9 +178,36 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 68%;
+  width: 62%;
 }
 .logo-inicio{
   display: flex;
   align-items: center;
+}
+
+.carrito-container{
+
+    display: none;
+    
+    background-color: #e7e7e746;
+    align-items: center;
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.carrito{
+    background-color: #f1f1f1;
+    width: 600px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgb(0, 0, 0.2);
+   
+   
 }
