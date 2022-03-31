@@ -50,3 +50,17 @@ open.addEventListener('click', () => {
 close.addEventListener('click', () => {
     carrito_container.classList.remove('show');
 });
+
+
+const open_description= document.getElementById('open_description');
+const description_container= document.getElementById('description_container');
+const close_description= document.getElementById('close_description');
+
+open_description.addEventListener('click', () => {
+    description_container.classList.add('show');
+    
+});
+
+close_description.addEventListener('click', () => {
+    description_container.classList.remove('show');
+});

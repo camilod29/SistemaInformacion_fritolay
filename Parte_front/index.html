@@ -73,7 +73,7 @@
         <div id="catalogoProducto">
         <div class="page-content">
 
-            <div class="product-container"> 
+            <div class="product-container" id="open_description"> 
                 <img src="resources/example-image.jpg" alt="">
                 <h3>Nombre</h3>
                 <h1>$50.000</h1>
@@ -118,20 +118,43 @@
     </div>
 
         <div class="carrito-container" id="carrito_container"> 
+
             <div class="carrito">
+
+                <button id="close_carrito" style=" margin-left: 100%; ">  <img src="resources/image 22.png" alt=""></button>
+
                 <h1>Carrito de compras</h1>
-                <p>
-                    aqui van las cosas esas
-                </p>
-                <button id="close_carrito">cerrar</button>
+
+                <h2>Total:</h2> 
+
+                
+                <button class="boton_comprar"> Comprar </button>
             </div>
           
         </div>
+
+
+        <div class="description-container" id="description_container"> 
+            <div class="description">
+
+                <button id="close_description" style=" margin-left: 100%;">
+                <img src="resources/image 22.png" alt="">
+                </button>
+                <h1>Descripción</h1>
+                <p>
+                    ...........
+                </p>
+             
+            </div>
+          
+        </div>
+
 
         
 
     </body>
     <script src="js/index.js"></script>  
+
     <footer>
     </footer>
 </html>
