@@ -211,3 +211,8 @@
    
    
 }
+
+.show{
+  pointer-events: auto;
+  display: flex;
+}
