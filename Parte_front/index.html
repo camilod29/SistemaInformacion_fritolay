@@ -45,7 +45,7 @@
                         </div>
     
                         <div class="carrito-botton" >
-                            <button type="button" id="open_carrito"> 
+                            <button type="button" id="open_carrito" onclick="onClickCarrito()"> 
                                 <img src="resources/cart.png" height ="60" width="60" />
                             </button>
                         </div>
@@ -141,7 +141,22 @@
                 <button id="close_carrito" style=" margin-left: 100%; ">  <img src="resources/image 22.png" alt=""></button>
 
                 <h1>Carrito de compras</h1>
-
+                <div>
+                    <table id="carrito" class="tabla">
+                        <thead>
+                            <tr>
+                                <th class="tabla__th">Producto</th>
+                                <th class="tabla__th">Cantidad</th>
+                                <th class="tabla__th"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>No hay datos registrados</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
                 <h2>Total:</h2> 
 
                 
@@ -193,7 +208,7 @@
 
     </body>
     <script src="js/index.js"></script>  
-
+    <script src="js/carrito.js"></script>
     <footer>
     </footer>
 </html>
