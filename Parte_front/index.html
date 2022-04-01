@@ -40,7 +40,8 @@
                         </div>
     
                         <div class="button-usuario">
-                            <button type="button"> <img src="resources/profile.png" height ="60" width="60" /></button>
+                            <button type="button" id="open_agregar"> 
+                                <img src="resources/profile.png" height ="60" width="60" /></button>
                         </div>
     
                         <div class="carrito-botton" >
@@ -149,8 +150,13 @@
           
         </div>
 
-        <div class="agregar-container" id="agregar_container">
+        <div class="agregar-container cerrar-agregar" id="agregar_container">
             <div id = "controlForm" class="agregar">
+
+                <button id="close_agregar" style=" margin-left: 100%;">
+                    <img src="resources/image 22.png" alt="">
+                </button>
+
             <h2>Registrar Producto</h2>
             <form onsubmit="saveDataForm(event)">
               <input type="text" id="nombre" placeholder="Nombre..." value=""/> 

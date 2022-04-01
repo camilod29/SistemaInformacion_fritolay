@@ -105,3 +105,20 @@ open_description.addEventListener('click', () => {
 close_description.addEventListener('click', () => {
     description_container.classList.remove('show');
 });
+
+
+const open_agregar= document.getElementById('open_agregar');
+const agregar_container= document.getElementById('agregar_container');
+const close_agregar= document.getElementById('close_agregar');
+
+open_agregar.addEventListener('click', () => {
+    
+    agregar_container.classList.add('show');
+    document.getElementById('agregar_container').classList.remove('cerrar-agregar');
+});
+
+close_agregar.addEventListener('click', () => {
+    agregar_container.classList.remove('show');
+    document.getElementById('agregar_container').classList.add('cerrar-agregar');
+   
+});
