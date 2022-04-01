@@ -73,9 +73,31 @@ function buscarProducto(item){
                 producto = listaProducto[a].nombre;
                 return producto;
             }
+        }      
+}
+function saveDataFormCart(event, id){
+    event.preventDefault();
+    let data = '';
+    data += 'producto_id=' +id;
+    data += '&cantidad=' + document.getElementById('cantidad_compra'+id).value;
+    console.log(data);
+    saveC(data);
+}
+
+function saveC(data) {
+    let reponse = null;
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            reponse = JSON.parse(this.response);
+            indexCarrito();
         }
-        
-    
+    };
+    let param = idProductos > 0 ? '/' + idProductos : '';
+    let metodo = idProductos > 0 ? 'PUT' : 'POST';
+    xhttp.open(metodo, urlCarrito + param, true);
+    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhttp.send(data);
 }
 
 function onClickCarrito(){

@@ -12,7 +12,7 @@ function indexProducto() {
             response = JSON.parse(this.response);
             console.log(response);
             listaProductos = response.data;
-            asignarDatosTablaHtml();
+            asignarDatosTablaHtmls();
         }
     };
     xhttp.open("GET", urlProducto, true);
@@ -20,7 +20,7 @@ function indexProducto() {
 }
 indexProducto();
 
-function asignarDatosTablaHtml() {
+function asignarDatosTablaHtmls() {
     let html = '';
     for(let item of listaProductos){
         
@@ -28,7 +28,12 @@ function asignarDatosTablaHtml() {
         html += '<img src="resources/example-image.jpg" alt="">';
         html += '<h3>'+ item.nombre +'</h3>';
         html += '<h1>$'+ item.precio +'</h3>';
-        html += '<button class="btn btn-warning">Agregar</button>';
+        html += '<div style="display: flex; flex-direction: row; justify-content: space-around;">';
+        html += '<form onsubmit="saveDataFormCart(event, '+item.id+')">';
+        html += '<button  type="submit" class="btn btn-warning" >Agregar</button>';
+        html += '<input type="num" id="cantidad_compra'+item.id+'" style=" width: 40px; height: 40px;" value=""></input>';   
+        html +='</form>';
+        html += '</div>';
         html += '</div>';
     }
     if(html == ''){
