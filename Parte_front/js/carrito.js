@@ -49,7 +49,7 @@ function asignarDatosTablaHtml() {
         html += '<td class="tabla__th">'+ producto_name +'</td>';
         html += '<td class="tabla__th">'+ item.cantidad +'</td>';
         html += '<td class="tabla__th">';
-        html += '   <div class = "contentButtons">';
+        html += '   <div style="display: flex;">';
         html += '       <button class = "contentButtons__button contentButtons__button-verde" onclick="detalle('+ item.id +')"><img src="resources/clipboard.svg" alt="detalle"></button>';
         html += '       <button class = "contentButtons__button contentButtons__button-azul" onclick="modificar('+ item.id +')"><img src="resources/gear.svg" alt="modificar"></button>';
         html += '       <button class = "contentButtons__button contentButtons__button-rojo" onclick="eliminar('+ item.id +')"><img src="resources/trash.svg" alt="eliminar"></button>';

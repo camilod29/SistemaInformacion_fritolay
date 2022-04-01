@@ -28,12 +28,12 @@ function asignarDatosTablaHtmls() {
         html += '<img src="resources/example-image.jpg" alt="">';
         html += '<h3>'+ item.nombre +'</h3>';
         html += '<h1>$'+ item.precio +'</h3>';
-        html += '<div style="display: flex; flex-direction: row; justify-content: space-around;">';
         html += '<form onsubmit="saveDataFormCart(event, '+item.id+')">';
+        html += '<div style="display: flex; flex-direction: row; justify-content: space-around;">';
         html += '<button  type="submit" class="btn btn-warning" >Agregar</button>';
         html += '<input type="num" id="cantidad_compra'+item.id+'" style=" width: 40px; height: 40px;" value=""></input>';   
-        html +='</form>';
         html += '</div>';
+        html +='</form>';
         html += '</div>';
     }
     if(html == ''){
