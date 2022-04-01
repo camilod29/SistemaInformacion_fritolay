@@ -31,7 +31,7 @@ class ProductoController extends BaseController
         $model-> set('cantidad',$request['cantidad']);
         $model-> set('categoria',$request['categoria']);
         $model-> set('descripcion',$request['descripcion']);
-        $model-> set('imagen',addslashes(file_get_contents($_FILES['imagen']['tmp_name'])));
+        //$model-> set('imagen',addslashes(file_get_contents($_FILES['imagen']['tmp_name'])));
         $model-> set('precio',$request['precio']);
         $status = $model->save();
         return $status ? 'Registro guardado':'Error al guardar el registro';
