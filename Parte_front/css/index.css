@@ -2,6 +2,15 @@
   align-items: baseline;
   display: flex;
 }
+.navbar-brand-title a{
+  color: black;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200px;
+  font-size: 20px;
+  color: #000000;
+  text-decoration:none;
+}
 
 .body-web{
   background-color: white;
