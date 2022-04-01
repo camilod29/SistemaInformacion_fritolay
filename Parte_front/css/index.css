@@ -285,7 +285,14 @@
  
  
 }
+.agregar form{
+  justify-content: center;
+    display: grid;
+}
 
+.agregar input{
+ margin: 5px;
+}
 .agregar-container button{
   border: none;
   background-color: none
